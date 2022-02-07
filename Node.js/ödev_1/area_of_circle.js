@@ -4,6 +4,7 @@ function areaOfCircle(r) {
 
 const arg = process.argv.slice(2)
 
+// or parseInt(arg[0])
 let result= areaOfCircle(arg[0] * 1);
 
 if (arg > 0 && arg) {
