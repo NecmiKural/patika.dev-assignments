@@ -18,4 +18,3 @@ rota.get("/iletisim", (greet) => {
 
 app.use(rota.routes());
 app.listen(3000);
-
